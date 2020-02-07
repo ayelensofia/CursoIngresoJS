@@ -5,5 +5,7 @@
 function mostrar()
 {
 
+	var nombre=propmt("ingrese nombre");
+	var nombre=document.getElementById('elNombre').value;
 }
 
