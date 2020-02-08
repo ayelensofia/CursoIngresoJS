@@ -14,7 +14,6 @@ function mostrarAumento()
 	importe=parseInt(importe);
 	aumento=porcentaje*importe/100;
 	resultado=importe+aumento;
-	
 
 
 	
