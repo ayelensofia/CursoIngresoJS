@@ -10,10 +10,12 @@ function mostrarAumento()
 	var aumento;
 
 	porcentaje=10;
-	var importe=document.getElementById('sueldo').value;
+	importe=document.getElementById('sueldo').value;
 	importe=parseInt(importe);
 	aumento=porcentaje*importe/100;
 	resultado=importe+aumento;
+
+	document.getElementById('resultado').value=resultado;
 
 
 	
