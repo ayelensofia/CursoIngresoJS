@@ -9,12 +9,12 @@ function mostrarAumento()
 	var porcentaje;
 	var resultado;
 
-	porcentaje="25";
+	porcentaje="20";
 	var importe=document.getElementById('importe').value;
 	importe=parseInt(importe);
-	descuento=importe*porcentaje/100;
-	resultado=descuento;
-	alert("el resultado es"+resultado)
-
+	descuento=porcentaje*importe/100;
+	resultado=importe-descuento;
+	
+	
 
 }
