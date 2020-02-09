@@ -52,8 +52,7 @@ function Materiales ()
 	 
 
 	alert("se necesitan"+cantbolsascemento+"bolsas de cemento"+"y"+cantbolcal+"bolsas de cal");
-	//console.log(cantbolsascemento);
-	//console.log(cantbolcal);
+	
 
 	
 }
