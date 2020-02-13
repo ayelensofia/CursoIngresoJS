@@ -2,7 +2,7 @@
 function mostrar()
 {
 
-	var apellido;//definimos variable
+	/*var apellido;//definimos variable
 	var nombre;
 
 	apellido="perez";//asignamos valor a la variable
@@ -17,6 +17,8 @@ function mostrar()
 	alert("apellido");//literal
 	alert(apellido);//variable 
 	alert(primer pri)//si la variable no existe no se puede hacer nada
-	alert();//sale vacio
+	alert();//sale vacio*/
+
+	//testin
 }	
 
