@@ -5,16 +5,18 @@ function mostrar()
 	var edad;
 		edad=document.getElementById('edad').value;
 		edad=parseInt(edad);
-		if()//lo que detecta el microprocesador, devuelve true o false
+		if(edad>17)//lo que detecta el microprocesador, devuelve true o false
 		{
-			
+			alert("es mayor de edad");
 		}
 		else
-		{
-			if()
-			else()	
+		{	
+			if(edad>12 && edad<18)
+			alert("es adolescente");
 		}
-			
+			else
+
+			{alert("es niño/a");}			
 		
 		
 		}

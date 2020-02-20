@@ -3,15 +3,13 @@ function mostrar()
 //tomo la edad  
 
 		var edad;
+
 		edad=document.getElementById('edad').value;
 		edad=parseInt(edad);
-		if(edad>17)//lo que detecta el microprocesador, devuelve true o false
+
+		if(edad>17)
 		{
-			alert("es mayor");
+			alert("es mayor de edad");
 		}
-		else
-		{	
-			alert("es menor");  
-		}	
 
 }//FIN DE LA FUNCIÓN
