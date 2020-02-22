@@ -8,7 +8,6 @@ var contador;
 		console.log(contador);
 		contador--;
 		
-		
 	}
 	
 

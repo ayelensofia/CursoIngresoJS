@@ -3,17 +3,10 @@ function mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var numeroIngresado;
+	var numero;
 
-
-
-	while(contador<5)
-		{
-			contador=contador+1;//tomo la misma variable
-			numeroIngresado=prompt("ingrese numero");
-			numeroIngresado=parseInt(numeroIngresado);
-			acumulador=acumulador+numeroIngresado;//contener valor anterior y modificarlo
-		}
+	numero=prompt("Ingrese un numero");
+	while()
 
 
 document.getElementById('suma').value=acumulador;
